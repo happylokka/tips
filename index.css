@@ -1,0 +1,80 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+.tips {
+  min-width: 380px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ebeef5;
+  position: fixed;
+  left: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  background-color: #edf2fc;
+  transition: opacity 0.3s, transform 0.4s, top 0.4s;
+  overflow: hidden;
+  padding: 15px 15px 15px 20px;
+  align-items: center;
+  display: flex;
+}
+.tips .iconfont {
+  font-size: 16px;
+  margin-right: 10px;
+}
+.tips p {
+  color: #909399;
+}
+.tips i {
+  color: #c0c4cc;
+}
+.tips i:hover {
+  color: #909399;
+}
+.tips .close {
+  text-align: center;
+  font-style: normal;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: auto;
+}
+.tips.info {
+  background-color: #edf2fc;
+  border-color: #ebeef5;
+}
+.tips.info .iconfont {
+  color: #909399;
+}
+.tips.info p {
+  color: #909399;
+}
+.tips.success {
+  background-color: #f0f9eb;
+  border-color: #e1f3d8;
+}
+.tips.success .iconfont {
+  color: #67c23a;
+}
+.tips.success p {
+  color: #67c23a;
+}
+.tips.warning {
+  background-color: #fdf6ec;
+  border-color: #faecd8;
+}
+.tips.warning .iconfont {
+  color: #e6a23c;
+}
+.tips.warning p {
+  color: #e6a23c;
+}
+.tips.error {
+  background-color: #fef0f0;
+  border-color: #fde2e2;
+}
+.tips.error .iconfont {
+  color: #f56c6c;
+}
+.tips.error p {
+  color: #f56c6c;
+}
