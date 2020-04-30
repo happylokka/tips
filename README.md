@@ -15,7 +15,7 @@
             type: 'info', // 信息类型 一共四种类型「info(默认)、success、warning、error」不传默认 info
             auto: true, // 自动关闭 默认自动
             showClose: false, // 关闭按钮 默认无
-            duration: 3000, // 过渡时间 默认3000
+            duration: 3000, // 停留时间 默认3000
             oninit: function() {}, // 初始回调
             onopen: function() {}, // 打开状态回调
             onclose: function() {} // 关闭状态回调
