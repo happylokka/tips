@@ -34,7 +34,6 @@
         tips({
             message: "成功信息成功信息成功信息",
             type: "success",
-			auto: false,
 			showClose:true,
 			onclose: function() {
 				console.log('我关闭啦！');
